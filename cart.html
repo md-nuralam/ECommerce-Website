@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Font awesome cdn-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!--Google font cdn-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+        <meta name="description" content="This is an ECommerce Project made by MD. NUR ALAM">
+        <title>E Commerce Website</title>
+    </head>
+    <body>
+        <!--Navbar starts here-->
+        <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+        <nav id="menu" class="hidden">
+            <ul class="nav-upper flex-space-arround">
+                <li class="nav-list"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-list"><a href="register.html" class="nav-link">Register</a></li>
+                <li class="nav-list"><a href="login.html" class="nav-link">Login</a></li>
+                <li class="nav-list"><a href="index.html" class="nav-link">Logout</a></li>
+                <li class="nav-list"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-list"><a href="profile.html" class="nav-link"><img src="./Media/Md. Nur Alam.jpg" class="profile-icon" alt="Profile Icon"/></a></li>
+            </ul>
+            <ul class="nav-lower flex-space-arround">
+                <li class="nav-brand nav-list"><a href="index.html" class="nav-link">Md. Nur Alam Express</a></li>
+                <li class="nav-list"><a href="cart.html" class="nav-link"><span><i class="fa-solid fa-cart-shopping"></i></span>Cart 2 Product - $500.00</a></li>
+
+            </ul>
+        </nav>
+
+        <!--Navbar ends here-->
+        <!--Main section starts here-->
+
+        <main>
+            <div class="cart flex-center">
+                <div class="cart cart-items">
+
+                    <div class="card cart-items-heading">
+                        <h2>Shopping Cart [2 Items]</h2>
+                        <div class="cart-items-action">
+                            <label for="select">
+                                <input type="checkbox" name="select" id="select">Select all items
+                            </label>
+                            <button class="btn">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                            <button class="btn">Shop More</button>
+                        </div>
+                    </div>
+
+                    <div class="cart-item card flex-space-arround">
+                        <input type="checkbox" name="" id="">
+                        <img src="./Media/PP.jpg" alt="product1" class="cart-items-image">
+                        <div class="cart-items-description">
+                            <h3 class="product-name">Sony bla bla</h3>
+                            <h4 class="product-price">Price: $299.00</h4>
+                            <p class="cart-shipping">srhforei sgjosugjpsr soirtgjprsjgpr rogjporgp</p>
+                        </div>
+                        <div class="cart-items-action">
+                            <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                            <button class="btn"><i class="fas fa-add"></i></button>
+                            <span>3</span>
+                            <button class="btn"><i class="fas fa-minus"></i></button>
+                        </div>
+
+                    </div>
+
+                    <div class="cart-item card flex-space-arround">
+                        <input type="checkbox" name="" id="">
+                        <img src="./Media/PP.jpg" alt="product1" class="cart-items-image">
+                        <div class="cart-items-description">
+                            <h3 class="product-name">Sony bla bla</h3>
+                            <h4 class="product-price">Price: $299.00</h4>
+                            <p class="cart-shipping">srhforei sgjosugjpsr soirtgjprsjgpr rogjporgp</p>
+                        </div>
+                        <div class="cart-items-action">
+                            <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                            <button class="btn"><i class="fas fa-add"></i></button>
+                            <span>3</span>
+                            <button class="btn"><i class="fas fa-minus"></i></button>
+                        </div>
+
+                    </div>
+
+                    <div class="cart-item card flex-space-arround">
+                        <input type="checkbox" name="" id="">
+                        <img src="./Media/PP.jpg" alt="product1" class="cart-items-image">
+                        <div class="cart-items-description">
+                            <h3 class="product-name">Sony bla bla</h3>
+                            <h4 class="product-price">Price: $299.00</h4>
+                            <p class="cart-shipping">srhforei sgjosugjpsr soirtgjprsjgpr rogjporgp</p>
+                        </div>
+                        <div class="cart-items-action">
+                            <button class="btn"><i class="fas fa-trash-alt"></i></button>
+                            <button class="btn"><i class="fas fa-add"></i></button>
+                            <span>3</span>
+                            <button class="btn"><i class="fas fa-minus"></i></button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="cart-payment">
+                    <div class="cart-payment-summery card">
+                        <h2>Payment Summery</h2>
+                        <div>
+                            <p>Sub Totall:</p>
+                            <p>$300.00</p>
+                        </div>
+                        <div>
+                            <p>Sub Totall:</p>
+                            <p>$300.00</p>
+                        </div>
+                        <div>
+                            <p>Sub Totall:</p>
+                            <p>$300.00</p>
+                        </div>
+                        <button class="btn cart-payment-button">Pay Now</button>
+
+                    </div>
+
+                    <div class="cart-payment-method card">
+                        <h2>Payment Methods</h2>
+                        <div>
+                            <i class="fa-brands fa-cc-visa fa-3x"></i>
+                            <i class="fa-brands fa-cc-apple-pay fa-3x"></i>
+                            <i class="fa-brands fa-cc-amazon-pay fa-3x"></i>
+                            <i class="fa-brands fa-cc-amex fa-3x"></i>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </main>
+
+        <!--Main section ends here-->        
+
+        <!--Footer starts here-->
+        <footer class="footer flex-space-arround">
+            <div class="flex-space-arround">
+                <label for="subscribe">Subscribe to Me</label>
+                <input type="email" class="footer-input" name="subscribe" id="subscribe" placeholder="Enter your email address here"/>
+                <button class="btn btn-subscribe">Subscribe</button>
+            </div>
+            <div>
+                <p>&copy; Copyright 2023 Md. NUr Alam Express | All rights reserved by Md. Nur Alam</p>
+            </div>
+        </footer>
+
+        <!--Footer ends here-->
+       
+        <script src="./JS/index.js"></script>
+    </body>
+</html>
